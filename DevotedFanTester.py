@@ -193,4 +193,3 @@ for source in sourcelist:
 df = pandas.DataFrame(data={"source": sourcelist, "total_followed": total_followed, "total_evaluated": total_evaluated, "postless_followed": postless_followed, "percent_postless": percent_postless, "devotedfan_followed": devotedfan_followed, "percent_devoted": percent_devotedfan})
 df.to_csv("./DevotedFansTestOutput.csv", sep=',',index=False)
 
-#ok -- make a second csv that prints out source and troll, ie for each troll someone has, add an entry
