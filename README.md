@@ -1,4 +1,4 @@
-# medium
+# Medium Analysis
 Medium Network Analysis
 
 Taking a look at followers/followees network on medium without API. 
